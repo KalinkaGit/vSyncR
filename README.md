@@ -4,6 +4,8 @@
 vSyncR (vSyncRevamped) is an improved and updated version with new features of vSync originally created by Vespura. 
 vSyncR allows you to control and synchronize weather and time without any prerequisite.
 
+[DOWNLOAD HERE](https://github.com/KalinkaGit/vSyncR/releases)
+
 # New Features
 - Configuration file (config.lua) that allows a simpler and more detailed configuration of the script.
 - You can now allow commands to the authorized groups or to the players with their identifier.
