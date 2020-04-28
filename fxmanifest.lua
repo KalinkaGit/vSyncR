@@ -11,6 +11,7 @@ server_scripts {
 	'locale.lua',
 	'locales/en.lua',
 	'locales/fr.lua',
+	'locales/pt.lua', -- Thanks to raphapt https://github.com/raphapt
 	'server/server.lua'
 }
 
@@ -19,5 +20,6 @@ client_scripts {
 	'locale.lua',
 	'locales/en.lua',
 	'locales/fr.lua',
+	'locales/pt.lua', -- Thanks to raphapt https://github.com/raphapt
 	'client/client.lua'
 }
