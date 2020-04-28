@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/v/release/KalinkaGit/vSyncR) ![](https://img.shields.io/github/issues/KalinkaGit/vSyncR) ![](https://img.shields.io/github/downloads/KalinkaGit/vSyncR/total)
+
 # vSyncR
 vSyncR (vSyncRevamped) is an improved and updated version with new features of vSync originally created by Vespura. 
 vSyncR allows you to control and synchronize weather and time without any prerequisite.
