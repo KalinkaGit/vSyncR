@@ -1,4 +1,4 @@
-![](https://img.shields.io/github/v/release/KalinkaGit/vSyncR) ![](https://img.shields.io/github/issues/KalinkaGit/vSyncR) ![](https://img.shields.io/github/downloads/KalinkaGit/vSyncR/total)
+[<img src="https://img.shields.io/github/v/release/KalinkaGit/vSyncR">]() [<img src="https://img.shields.io/github/issues/KalinkaGit/vSyncR">](https://github.com/KalinkaGit/vSyncR/issues) [<img src="https://img.shields.io/github/downloads/KalinkaGit/vSyncR/total">](https://github.com/KalinkaGit/vSyncR/releases)
 
 # vSyncR
 vSyncR (vSyncRevamped) is an improved and updated version with new features of vSync originally created by Vespura. 
