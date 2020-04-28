@@ -4,8 +4,6 @@
 vSyncR (vSyncRevamped) is an improved and updated version with new features of vSync originally created by Vespura. 
 vSyncR allows you to control and synchronize weather and time without any prerequisite.
 
-[DOWNLOAD HERE](https://github.com/KalinkaGit/vSyncR/releases)
-
 # New Features
 - Configuration file (config.lua) that allows a simpler and more detailed configuration of the script.
 - You can now allow commands to the authorized groups or to the players with their identifier.
@@ -29,3 +27,12 @@ Much more in the future...
 `/evening` Set the time to evening.
 `/night` Set the time to night.
 `/blackout` Enable/disable blackout mode.
+
+## Installation
+- [DOWNLOAD HERE](https://github.com/KalinkaGit/vSyncR/releases)
+- Put folder `vSyncR` in the `server-data` directory
+- Configure vSyncR in `config.lua`
+- Add this to your `server.cfg`: 
+```
+start vSyncR
+```
