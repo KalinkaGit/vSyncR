@@ -11,7 +11,7 @@ Config.FreezeTime       = false -- freeze time                                  
 Config.Blackout         = false -- Set blackout                                 default: false
 Config.NewWeatherTimer  = 10 -- Time (in minutes) between each weather change   default: 10
 
-Config.Locale           = 'fr' -- Languages : en, fr
+Config.Locale           = 'en' -- Languages : en, fr, pt
 
 Config.Admins = { -- Only if Config.AdminByID is set to true
     'steam/license:STEAMID/LICENSE', -- EXAMPLE : steam:110000145959807 or license:1234975140128921327
