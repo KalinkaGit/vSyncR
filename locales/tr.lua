@@ -1,3 +1,5 @@
+-- Thanks to thegambid https://github.com/thegambid !
+-- :p
 Locales['tr'] = {
     ['time_frozenc'] = 'Zaman ~b~donduruldu~s~.',
     ['time_unfrozenc'] = 'Zaman ~y~akmaya devam ediyor~s~.',
