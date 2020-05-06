@@ -1,6 +1,6 @@
--- Thanks to raphapt https://github.com/raphapt !
+-- Thanks to Richards0nd https://github.com/Richards0nd !
 -- :p
-Locales['br'] = {
+Locales['pt_br'] = {
     ['time_frozenc'] = 'O tempo está ~b~parado~s~.',
     ['time_unfrozenc'] = 'O tempo não está mais ~y~parado~s~.',
     ['time_now_frozen'] = 'O tempo está agora parado.',
