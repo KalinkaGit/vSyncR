@@ -4,8 +4,8 @@
 vSyncR (vSyncRevamped) is an improved and updated version with new features of vSync originally created by Vespura. 
 vSyncR allows you to control and synchronize weather and time without any prerequisite.
 
-# v1.0.2 Update
-- Added turkish translation made by [thegambid](https://github.com/thegambid). Thanks to him!
+# v1.0.3 Update
+- Added bresilian portuguese translation made by [Richards0nd](https://github.com/Richards0nd). Thanks to him!
 
 # Translation Credits
 **Portuguese**: [raphapt](https://github.com/raphapt)\
