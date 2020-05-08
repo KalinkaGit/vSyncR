@@ -9,7 +9,7 @@ vSyncR allows you to control and synchronize weather and time without any prereq
 
 # Translation Credits
 **Portuguese**: [raphapt](https://github.com/raphapt)\
-**Turkish**: [thegambid](https://github.com/thegambid)
+**Turkish**: [thegambid](https://github.com/thegambid)\
 **Bresilian Portuguese**: [Richards0nd](https://github.com/Richards0nd)
 
 # New Features
