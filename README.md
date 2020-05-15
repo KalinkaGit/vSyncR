@@ -36,7 +36,7 @@ Much more in the future...
 `/night` Set the time to night.
 `/blackout` Enable/disable blackout mode.
 
-## Installation
+# Installation
 - [DOWNLOAD HERE](https://github.com/KalinkaGit/vSyncR/releases)
 - Put folder `vSyncR` in the `server-data` directory
 - Configure vSyncR in `config.lua`
