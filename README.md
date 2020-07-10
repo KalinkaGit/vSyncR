@@ -34,7 +34,7 @@ Much more in the future...
 `/noon` Set the time to noon.\
 `/evening` Set the time to evening.\
 `/night` Set the time to night.\
-`/blackout` Enable/disable blackout mode.\
+`/blackout` Enable/disable blackout mode.
 
 # Installation
 - [DOWNLOAD HERE](https://github.com/KalinkaGit/vSyncR/releases)
