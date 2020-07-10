@@ -26,15 +26,15 @@ Much more in the future...
 - Custom permissions for the commands.
 
 # Commands
-`/weather <type>` Change the weather type (will fade to the new weather type within 15 seconds).
-`/freezeweather` Enable/disable dynamic weather changes.
-`/time <h> <m>` Set the time.
-`/freezetime` Freeze/unfreeze time.
-`/morning` Set the time to morning.
-`/noon` Set the time to noon.
-`/evening` Set the time to evening.
-`/night` Set the time to night.
-`/blackout` Enable/disable blackout mode.
+`/weather <type>` Change the weather type (will fade to the new weather type within 15 seconds).\
+`/freezeweather` Enable/disable dynamic weather changes.\
+`/time <h> <m>` Set the time.\
+`/freezetime` Freeze/unfreeze time.\
+`/morning` Set the time to morning.\
+`/noon` Set the time to noon.\
+`/evening` Set the time to evening.\
+`/night` Set the time to night.\
+`/blackout` Enable/disable blackout mode.\
 
 # Installation
 - [DOWNLOAD HERE](https://github.com/KalinkaGit/vSyncR/releases)
