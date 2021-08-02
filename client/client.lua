@@ -20,7 +20,8 @@ Citizen.CreateThread(function()
             Citizen.Wait(15000)
         end
         Citizen.Wait(100) -- Wait 0 seconds to prevent crashing.
-        SetBlackout(blackout)
+        SetArtificialLightsState(blackout)
+        SetArtificialLightsStateAffectsVehicles(false)
         ClearOverrideWeather()
         ClearWeatherTypePersist()
         SetWeatherTypePersist(lastWeather)
