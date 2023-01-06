@@ -86,19 +86,7 @@ RegisterCommand('weather', function(source, args)
             print(_U('weather_invalid_syntax'))
             return
         else
-            for i,wtype in ipairs(Config.AvailableWeatherTypes) do
-                if wtype == string.upper(args[1]) then
-                    validWeatherType = true
-                end
-            end
-            if validWeatherType then
-                print(_U('weather_updated'))
-                CurrentWeather = string.upper(args[1])
-                newWeatherTimer = 10
-                TriggerEvent('vSync:requestSync')
-            else
-                print(_U('weather_invalid'))
-            end
+            setWeather(string.upper(args[1]))
         end
     else
         if isAllowedToChange(source) then
@@ -114,7 +102,7 @@ RegisterCommand('weather', function(source, args)
                 if validWeatherType then
                     TriggerClientEvent('vSync:notify', source, _U('weather_willchangeto', string.lower(args[1])))
                     CurrentWeather = string.upper(args[1])
-                    newWeatherTimer = 10
+                    newWeatherTimer = Config.NewWeatherTimer
                     TriggerEvent('vSync:requestSync')
                 else
                     TriggerClientEvent('chatMessage', source, '', {255,255,255}, _U('weather_invalidc'))
@@ -126,6 +114,26 @@ RegisterCommand('weather', function(source, args)
         end
     end
 end, false)
+
+--- Switch to a specified weather type
+--- @param weather string - Weather type from Config.AvailableWeatherTypes
+--- @return boolean - success
+function setWeather(weather)
+    local validWeatherType = false
+    for _,weatherType in pairs(Config.AvailableWeatherTypes) do
+        if weatherType == string.upper(weather) then
+            validWeatherType = true
+        end
+    end
+    if not validWeatherType then 
+        print(_U('weather_invalid'))
+        return false 
+    end
+    CurrentWeather = string.upper(weather)
+    newWeatherTimer = Config.NewWeatherTimer
+    TriggerEvent('vSync:requestSync')
+    return true
+end
 
 RegisterCommand('blackout', function(source)
     if source == 0 then
@@ -290,14 +298,14 @@ Citizen.CreateThread(function()
         Citizen.Wait(60000)
         if newWeatherTimer == 0 then
             if Config.DynamicWeather then
-                NextWeatherStage()
+                nextWeatherStage()
             end
             newWeatherTimer = 10
         end
     end
 end)
 
-function NextWeatherStage()
+function nextWeatherStage()
     if CurrentWeather == "CLEAR" or CurrentWeather == "CLOUDS" or CurrentWeather == "EXTRASUNNY"  then
         local new = math.random(1,2)
         if new == 1 then
@@ -328,4 +336,7 @@ function NextWeatherStage()
     TriggerEvent("vSync:requestSync")
 end
 
-print("vSync Revamped by Kalinka loaded!")
+
+-- EXPORTS
+exports('nextWeatherStage', nextWeatherStage)
+exports('setWeather', setWeather)
