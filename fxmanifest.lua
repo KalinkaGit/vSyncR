@@ -7,6 +7,7 @@ version '1.0.2'
 server_scripts {
 	'config.lua',
 	'locale.lua',
+	'locales/es.lua',-- Thanks to raphapt https://github.com/Iggy-dev
 	'locales/de.lua',
 	'locales/en.lua',
 	'locales/fr.lua',
@@ -19,6 +20,7 @@ server_scripts {
 client_scripts {
 	'config.lua',
 	'locale.lua',
+	'locales/es.lua', -- Thanks to raphapt https://github.com/Iggy-dev
 	'locales/de.lua',	
 	'locales/en.lua',
 	'locales/fr.lua',
