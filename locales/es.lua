@@ -1,4 +1,4 @@
-Locales['en'] = {
+Locales['es'] = {
     ['time_frozenc'] = 'El tiempo está ~b~congelado~s~.',
     ['time_unfrozenc'] = 'El tiempo ~y~no está congelado~s~.',
     ['time_now_frozen'] = 'El tiempo está congelado.',
